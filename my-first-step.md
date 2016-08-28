@@ -1,18 +1,29 @@
 ---
-title: My first code tour step
-code: https://github.com/partyparrot/codetours/blob/563179f4f67fd76ca2dc28be3d5cf4fae4132891/client/main.js#L10-L16
+title: A code tour configuration file
+code: https://github.com/partyparrot/codetours-starter-kit/blob/ded59179edb6bd892ccffcb0c5a8a4f3868826d5/.codetour.json
 ---
 
-Welcome to CodeTours! As you can see, on the left is a code snippet of the route definitions in the CodeTours application itself. This code snippet was specified in the YAML front matter of this markdown file - the `code:` property above.
+Welcome to CodeTours!
 
-Note - you can get a link like the above by clicking in the line numbers of any file on GitHub, and then pressing `y` on your keyboard to get a "blob" URL.
+You might have read some code tours already, but this one is special - it's designed to teach you how to make a tour yourself. You can make a code tour of any project, even one that you didn't create.
 
-If you want to refer to specific other sub-sections of the code, you can always do that by creating a link to a different set of lines, as you can see in the heading below:
+The content for code tours is pulled from your repository on GitHub. To be able to be imported as a code tour, your repository needs to contain:
 
-<a href="https://github.com/partyparrot/codetours/blob/563179f4f67fd76ca2dc28be3d5cf4fae4132891/client/main.js#L75-L76" id="link-anchor"><h3>Linking to a different section</h3></a>
+1. A `.codetour.json` configuration file in the root of the repository
+2. One or more markdown files, referenced by the configuration file
 
-This heading has a few important aspects:
+On the left, you can see an example of a very simple `.codetour.json` file. You can see that it needs to include at least three properties.
 
-1. The `id` property is used as an anchor, so that you can link to this section directly.
-2. The `href` is used to determine the line numbers.
-3. The `<a>` tag is stripped entirely before displaying on the CodeTours website, since it has a special UI for navigating the code.
+<a href="https://github.com/partyparrot/codetours-starter-kit/blob/ded59179edb6bd892ccffcb0c5a8a4f3868826d5/.codetour.json#L2" id="targetRepository"><h4>targetRepository</h4></a>
+
+This property represents the repository that you are writing a tour about. For example, your code tour might live at `github.com/mynamehere/best-react-tour`, and the `targetRepository` would be `facebook/react`. This will help people find your tour when browsing this website.
+
+<a href="https://github.com/partyparrot/codetours-starter-kit/blob/ded59179edb6bd892ccffcb0c5a8a4f3868826d5/.codetour.json#L3" id="description"><h4>description<h4></a>
+
+This property is a description that should tell people what to expect when they get into your tour. It's your chance to hook people in when they are browsing the catalog.
+
+<a href="https://github.com/partyparrot/codetours-starter-kit/blob/ded59179edb6bd892ccffcb0c5a8a4f3868826d5/.codetour.json#L4-L6" id="steps"><h4>steps</h4></a>
+
+This property represents the actual content of your tour - it's an array of steps, each of which is the path to a Markdown-formatted file inside the same repository.
+
+That's all for the configuration file - go to the next step to learn how to write the content of the steps themselves.
