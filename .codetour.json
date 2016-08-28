@@ -1,0 +1,7 @@
+{
+  "targetRepository": "partyparrot/codetours",
+  "description": "Start here when you're making a code tour!",
+  "steps": [
+    "my-first-step.md"
+  ]
+}
