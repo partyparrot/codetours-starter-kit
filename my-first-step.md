@@ -7,7 +7,7 @@ code: https://github.com/partyparrot/codetours-starter-kit/blob/ded59179edb6bd89
 
 You might have read some code tours already, but this one is special - it's designed to teach you how to make a tour yourself. You can make a code tour of any open source project, even one you don't have commit access to.
 
-The content for code tours is pulled from your repository on GitHub. To be able to be imported as a code tour, your repository needs to contain:
+The content for a code tour is pulled from your repository on GitHub. To be able to be imported as a code tour, your repository needs to contain:
 
 1. A `.codetour.json` configuration file in the root of the repository
 2. One or more markdown files, referenced by the configuration file
