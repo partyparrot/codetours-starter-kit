@@ -18,7 +18,7 @@ On the left, you can see an example of a very simple `.codetour.json` file. You 
 
 This property represents the repository that you are writing a tour about. For example, your code tour might live at `github.com/mynamehere/best-react-tour`, and the `targetRepository` would be `facebook/react`. This will help people find your tour when browsing this website.
 
-<a href="https://github.com/partyparrot/codetours-starter-kit/blob/ded59179edb6bd892ccffcb0c5a8a4f3868826d5/.codetour.json#L3" id="description"><h4>description<h4></a>
+<a href="https://github.com/partyparrot/codetours-starter-kit/blob/ded59179edb6bd892ccffcb0c5a8a4f3868826d5/.codetour.json#L3" id="description"><h4>description</h4></a>
 
 This property is a description that should tell people what to expect when they get into your tour. It's your chance to hook people in when they are browsing the catalog.
 
