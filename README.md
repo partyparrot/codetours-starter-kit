@@ -6,7 +6,7 @@ This is a CodeTour designed to walk you through the steps required to make a Cod
 
 ### How should I use this?
 
-**If this is your first time making a tour, take a few minutes to check out our [CodeTour for CodeTour](https://www.codetours.xyz/tour/partyparrot/codetours-starter-kit)** (it's meta, we know). We promise everything will make a lot more sense after taking this tour.
+**If this is your first time making a tour, take a few minutes to check out [this deployed version of this tour](https://www.codetours.xyz/tour/partyparrot/codetours-starter-kit)**. We promise everything will make a lot more sense after taking this tour.
 
 If you've done it before, here's the TL;DR in case you need a reminder:
 
